@@ -1,9 +1,9 @@
 <template>
    <div class="center-container">
      <!-- <h1>{{ hitokoto }}</h1> -->
-     <!-- <h1>{{ hitokoto }}</h1> -->
-     <h2>{{ from }}</h2>
-     <h3>{{ from_who }}</h3>
+     <h1 class="box1">{{ hitokoto }}</h1>
+     <h2 class="box2">{{ from }}</h2>
+     <h3 class="box3">{{ from_who }}</h3>
      <div v-if="loading" class="loading">Loading...</div>
      <div v-if="error" class="error">{{ error }}</div>
      <button @click="fetchHitokoto" class="refresh-button">刷新</button>

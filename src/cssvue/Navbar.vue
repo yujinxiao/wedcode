@@ -1,11 +1,15 @@
 <template>
         <nav>
-            <h1>冥滩空间智库</h1>
-            <router-link to="/" class="a menu-item">主页</router-link>
-            <router-link to="/Share"  class="a menu-item">分类</router-link> 
-            <router-link to="/FriendsLink"  class="a menu-item">伙伴</router-link>
-            <router-link to="/Message"  class="a menu-item">留言板</router-link>
-            <router-link to="/AboutView"  class="a  menu-item">关于</router-link>
+            <h1 class="h1">冥滩空间智库</h1>
+            <input class="search" type="text" placeholder="Search">
+            <div class="text">
+            <router-link to="/" class="menu-item">主页</router-link>
+            <router-link to="/Share"  class="menu-item">分类</router-link> 
+            <router-link to="/FriendsLink"  class="menu-item">伙伴</router-link>
+            <router-link to="/Message"  class="menu-item">留言板</router-link>
+            <router-link to="/AboutView"  class="menu-item">关于</router-link>
+            </div>
+            
         </nav>
             
             

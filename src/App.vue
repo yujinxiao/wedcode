@@ -23,8 +23,8 @@ import Navbar from './cssvue/Navbar.vue'
 <style>
   *{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0px;
+    box-sizing:content-box;
   }
 
   body{
@@ -32,8 +32,21 @@ import Navbar from './cssvue/Navbar.vue'
   }
 
   header{
-    width: 100vw;
-    background-color: rgb(22, 15, 15);
-    padding: 1px;
+    /* width: ; */ 
+    background-color: black;
+    padding:1vw;
+    /* margin: 20px; */
+  }
+
+  html::-webkit-scrollbar{
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+    width: 19%;
+  }
+
+  /* ::-webkit-search-results-decoration */
+
+  .building{
+    background: url('../src/images/background.jpg');
   }
 </style>

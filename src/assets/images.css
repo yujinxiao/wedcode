@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 30vw;
+    /* justify-content: center; */
+    float: right;
+    height: 90vw;
     width: 100%; 
     margin: 1 auto; 
     background-image: url('../images/background.jpg');
@@ -40,18 +41,37 @@
   
   h1 {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 30px;
     text-shadow: 2px 2px 4px #000; 
+    display:flex;
+    float: right;
   }
 
   h2 {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 25px;
     text-shadow: 2px 2px 4px #000; 
+    display:flex;
+    float: right;
   }
 
   h3 {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 20px;
     text-shadow: 2px 2px 4px #000; 
+    display:flex;
+    float: right;
+  }
+
+  .box1{
+    display: flex;
+    float: left;
+  }
+
+  .box2{
+    display: flex;
+    float: right;
+  }
+  .box3{
+    display: flex;
   }
