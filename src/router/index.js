@@ -14,11 +14,6 @@ const router = createRouter({
       component: AboutView
     },//关于
 	{
-		path : "/DetailShare",
-		name: 'DetailShare',
-		component: () => import('../views/DetailShare.vue')
-	},//实验室
-	{
 		path : "/FriendsLink",
 		name: 'FriendsLink',
 		component: () => import('../views/FriendsLink.vue')
@@ -27,11 +22,6 @@ const router = createRouter({
 		path : "/Message",
 		name: 'Message',
 		component: () => import('../views/Message.vue')
-	},//
-	{
-		path : "/Reward",
-		name: 'Reward',
-		component: () => import('../views/Reward.vue')
 	},//
 	{
 		path : "/Share",
