@@ -5,6 +5,12 @@
   <div class="box body">
     <p>This is a box with some content.</p>
   </div>
+  <div class="box body">
+    <p>This is a box with some content.</p>
+  </div>
+  <div class="box body">
+    <p>This is a box with some content.</p>
+  </div>
   </template>
 
 <style>

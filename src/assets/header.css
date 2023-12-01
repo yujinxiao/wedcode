@@ -1,17 +1,11 @@
 
 nav{
     position:absolute;
-    /* display: flex; */
     left: 0%;
     top: 0%;
     right: 0%;
-    /* bottom: 0%; */
-    align-items: center;
-    justify-content: center;
-    height:initial;
-    width:unset;
-    backdrop-filter: blur(25px);
-    /* background-image: url(../images/background.jpg); */
+    backdrop-filter: blur(2px);
+    /* background-image: url(../images/1772.jpg_wh1200.jpg); */
     background-size:auto ;
     
 }

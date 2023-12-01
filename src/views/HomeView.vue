@@ -1,15 +1,20 @@
 <template>
-   <div class="center-container ">
-     <div class="box1 box">
-     <h1>{{ hitokoto }}</h1>
-     <h2>{{ from }}</h2>
-     <h3>{{ from_who }}</h3>
-     <div v-if="loading" class="loading">Loading...</div>
-     <div v-if="error" class="error">{{ error }}</div>
-     <button @click="fetchHitokoto" class="refresh-button">刷新</button>
-     </div>
-   </div>
- </template>
+<body class="box-boss">
+  <div class="center">
+      <div class="box">
+        <h1>{{ hitokoto }}</h1>
+        <h2>{{ from }}</h2>
+        <h3>{{ from_who }}</h3>
+        <div v-if="loading" class="loading">Loading...</div>
+        <div v-if="error" class="error">{{ error }}</div>
+        <button @click="fetchHitokoto" class="refresh-button">刷新</button>
+      </div>
+</div>
+</body>
+<div class="box-boss2">
+  
+</div>
+</template>
  
  <script>
  import axios from 'axios';

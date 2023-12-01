@@ -33,22 +33,8 @@ import Navbar from './cssvue/Navbar.vue'
   }
 
   header{
-    /* width: ;  */
-    /* backdrop-filter: blur(4px); */
     background-color: black;
-    padding:1vw;
-    /* margin: 20px; */
-  }
-
-  html::-webkit-scrollbar{
-    /* overflow-x: hidden; */
-    /* overflow-y: hidden; */
-    width: 19%;
-  }
-
-  /* ::-webkit-search-results-decoration */
-
-  .building{
-    background: url('../src/images/background.jpg');
+    background-image: url(./images/1772.jpg_wh1200.jpg);
+    padding:2.3vw;
   }
 </style>
