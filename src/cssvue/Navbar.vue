@@ -4,7 +4,7 @@
             <input class="search" type="text" placeholder="Search">
             <div class="text">
             <router-link to="/" class="menu-item">主页</router-link>
-            <router-link to="/Share"  class="menu-item">分类</router-link> 
+            <router-link to="/Share"  class="menu-item">我淦你大爷的剑来</router-link> 
             <router-link to="/FriendsLink"  class="menu-item">伙伴</router-link>
             <router-link to="/Message"  class="menu-item">留言板</router-link>
             <router-link to="/AboutView"  class="menu-item">关于</router-link>

@@ -1,9 +1,18 @@
 
 nav{
+    position:absolute;
+    /* display: flex; */
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    /* bottom: 0%; */
     align-items: center;
     justify-content: center;
-    /* background-image: url(../images/background.jpg);
-    background-size:auto ; */
+    height:initial;
+    width:unset;
+    backdrop-filter: blur(25px);
+    /* background-image: url(../images/background.jpg); */
+    background-size:auto ;
     
 }
 
@@ -21,19 +30,21 @@ nav .menu-item{
     
 }
 .h1{
+    position: fixed;
     background-image: url(../images/);
 	color:rgb(255, 98, 0);
 	font-size: 40px;
-    float:inline-start;
+    left:1%;
 }
 
 .search{ 
-    display: flex;
-    align-items: center;
+    position: fixed;
+    right: 1%;
+    /* align-items: center;
     justify-content: center;
-    float:inline-end;
+    float:inline-end; */
     font-size: 40px;
-    width: 25%;
+    width: 20%;
 }
 
 .text{ 

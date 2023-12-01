@@ -4,6 +4,7 @@
       <Navbar />
     </header>
   </div>
+  <div class="building"></div>
   <RouterView/>
 </template>
 
@@ -32,7 +33,8 @@ import Navbar from './cssvue/Navbar.vue'
   }
 
   header{
-    /* width: ; */ 
+    /* width: ;  */
+    /* backdrop-filter: blur(4px); */
     background-color: black;
     padding:1vw;
     /* margin: 20px; */

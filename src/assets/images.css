@@ -63,15 +63,12 @@
     float: right;
   }
 
-  .box1{
+  .box{
     display: flex;
-    float: left;
+    align-items: center;
+    justify-content: center;
   }
 
-  .box2{
-    display: flex;
-    float: right;
-  }
-  .box3{
-    display: flex;
+  .box1{
+    margin: 10vw;
   }
